@@ -1,0 +1,23 @@
+Arguments are extra pieces of information you give to the script when you run it. These arguments tell the script what to work on.
+
+Imagine you have a food delivery app. You open the app and enter:
+
+Your location → So the food is delivered to the right place.
+Your food choice → So the restaurant knows what to prepare.
+Your payment method → So the transaction is completed.
+Here, the location, food choice, and payment method are like arguments. They help the app process your order correctly.
+
+How Arguments Work in Bash?
+When you run a Bash script, you can pass arguments like this:
+
+./script_name.sh argument1 argument2 argument3
+
+script_name.sh → The Bash script you are running.
+
+argument1, argument2, argument3 → Extra information you provide to the script.
+
+Arguments in Bash are like inputs you give to a script when you run it. They help make scripts dynamic and useful for different tasks, like:
+
+Automating calculations 🧮
+Processing user data 👤
+Running commands with different inputs ⚙️
